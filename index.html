@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Mrinal 💛</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Opening Screen -->
+<div class="screen" id="startScreen">
+  <h1 class="typing">Hey Mrinal 💛</h1>
+  <p class="subtext">I made something for you...</p>
+  <button onclick="enterSite()">Enter</button>
+</div>
+
+<!-- Memory Screen -->
+<div class="screen hidden" id="memoryScreen">
+  <p class="line">From the moment I met you...</p>
+  <p class="line">Things started feeling different.</p>
+  <p class="line">You became my peace.</p>
+</div>
+
+<!-- Photo Screen -->
+<div class="screen hidden" id="photoScreen">
+  <img src="photo.jpg" class="photo">
+  <p>My favourite smile.</p>
+  <button onclick="showProposal()">Next</button>
+</div>
+
+<!-- Proposal Screen -->
+<div class="screen hidden" id="proposalScreen">
+  <h1>Will you be my Valentine?</h1>
+  <div class="buttons">
+    <button class="yes" onclick="yesClicked()">YES 💗</button>
+    <button class="no" onmouseover="moveNo()">NO 🙈</button>
+  </div>
+</div>
+
+<!-- Final Screen -->
+<div class="screen hidden" id="finalScreen">
+  <h1 class="loveText">You just made me the happiest person alive 💘</h1>
+  <p class="message">
+Heyyyyy qtt i made this for you i hope you loved it.<br><br>
+
+Your eyes, smile, waist, height (5'4 btw) and your heavenly voice all these are my favourite everything about you is special to me "meri jaan".<br><br>
+
+I still remember our first conversation, the first time i flirted with you I was giving you lots of compliments because you deserve them you're fucking gorgeous meri rasmalai.<br><br>
+
+I remember all the kisses and hugs we had I can never forget them those were heavenly experiences 🤭💋.<br><br>
+
+You're my everything we'll solve all issues together just like we did before I'm never gonna do that breakup shit again i love you so much enjoy your day beautiful muahhhhhhh 💐🫶
+  </p>
+</div>
+
+<!-- Floating hearts -->
+<div class="hearts"></div>
+
+<!-- Footer -->
+<div class="footer">Made with love by your sweetiepie 💛</div>
+
+<script src="script.js"></script>
+</body>
+</html>
